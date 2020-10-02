@@ -8,4 +8,7 @@ router.get('/', function(req, res) {
     response.success(req, res, 'Todo Correcto', 200);
 })
 
+router.get('/get-users', function(req, res) {
+    response.success(req, res, 'Trae todos los usuarios', 200);
+})
 module.exports = router;
